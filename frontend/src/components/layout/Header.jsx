@@ -2,9 +2,9 @@ import ThemeToggle from "../common/ThemeToggle";
 
 function Header() {
   return (
-    <header>
-      <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <h1 style={{ margin: 0 }}>Dekar Cyber Cafe & e-Services</h1>
+    <header className="site-header">
+      <div className="container header-row">
+        <h1 className="site-title">Dekar Cyber Cafe & e-Services</h1>
         <ThemeToggle />
       </div>
     </header>

@@ -3,7 +3,11 @@ function ThemeToggle() {
     document.body.classList.toggle("dark");
   }
 
-  return <button onClick={handleToggle} style={{ width: "auto" }}>Theme</button>;
+  return (
+    <button type="button" className="header-toggle" onClick={handleToggle}>
+      Theme
+    </button>
+  );
 }
 
 export default ThemeToggle;

@@ -17,7 +17,7 @@ function LoginPage() {
   }
 
   return (
-    <form className="card" onSubmit={handleSubmit}>
+    <form className="card auth-form" onSubmit={handleSubmit}>
       <h2>Business Login</h2>
       <input type="email" placeholder="Email" required onChange={(e) => setForm({ ...form, email: e.target.value })} />
       <input type="password" placeholder="Password" required onChange={(e) => setForm({ ...form, password: e.target.value })} />

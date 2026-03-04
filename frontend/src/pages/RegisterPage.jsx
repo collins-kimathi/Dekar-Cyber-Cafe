@@ -16,7 +16,7 @@ function RegisterPage() {
   }
 
   return (
-    <form className="card" onSubmit={handleSubmit}>
+    <form className="card auth-form" onSubmit={handleSubmit}>
       <h2>Create Business Account</h2>
       <input placeholder="Name" required onChange={(e) => setForm({ ...form, name: e.target.value })} />
       <input type="email" placeholder="Email" required onChange={(e) => setForm({ ...form, email: e.target.value })} />

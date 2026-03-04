@@ -1,7 +1,4 @@
-// Import React hook for managing state
 import { useState } from "react";
-
-// Import custom POST helper function for API requests
 import { apiPost } from "../../services/api";
 
 function OpenRequestForm() {
@@ -68,7 +65,7 @@ function OpenRequestForm() {
 
   return (
     // Form container with submit handler
-    <form className="card" onSubmit={handleSubmit}>
+    <form className="card request-form" onSubmit={handleSubmit}>
       <h2>Open Request</h2>
 
       {/* Name input */}

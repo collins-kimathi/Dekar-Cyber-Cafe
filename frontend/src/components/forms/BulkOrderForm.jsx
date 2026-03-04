@@ -44,7 +44,7 @@ function BulkOrderForm() {
 
   return (
     // Form element with submit handler
-    <form className="card" onSubmit={handleSubmit}>
+    <form className="card bulk-form" onSubmit={handleSubmit}>
 
       <h2>Bulk Order / Tender</h2>
 
