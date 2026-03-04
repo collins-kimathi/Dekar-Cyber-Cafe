@@ -32,7 +32,7 @@ function OpenRequestForm() {
     setIsSubmitting(true);
 
     try {
-      // Send POST request to backend with form data
+      // Submit request using local data service
       await apiPost("/request", form);
 
       // If successful, show success message
