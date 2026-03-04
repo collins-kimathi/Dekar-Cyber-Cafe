@@ -1,6 +1,6 @@
 # API Endpoints
 
-Base URL: `/api`
+These routes are handled by the frontend local data service in `frontend/src/services/api.js`.
 
 Public:
 - `GET /services`
@@ -17,14 +17,3 @@ Business:
 
 Admin:
 - `GET /admin/orders` (Bearer token, admin role)
-
-## Next API Additions
-
-- `PATCH /admin/orders/:id/status`
-- `PATCH /admin/orders/:id/payment-status`
-- `POST /admin/services`
-- `PUT /admin/services/:id`
-- `DELETE /admin/services/:id`
-- `POST /admin/books`
-- `PUT /admin/books/:id`
-- `DELETE /admin/books/:id`
