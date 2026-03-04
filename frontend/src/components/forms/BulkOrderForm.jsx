@@ -31,7 +31,7 @@ function BulkOrderForm() {
     const token = localStorage.getItem("token");
 
     try {
-      // Send POST request to backend with form data and token
+      // Submit order using local data service and auth token
       const response = await apiPost("/bulk-order", form, token);
 
       // If successful, display the invoice ID returned from server
